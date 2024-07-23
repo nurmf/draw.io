@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" modified="2024-07-23T12:03:01.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="KlKtCjlkQjo4qoyq0tHc" version="24.7.1" type="github">
+  <diagram name="第 1 页" id="WBCoEbyxyx8_mLvEO6bX">
+    <mxGraphModel dx="669" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-1" value="APP" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-2" target="5rKq8sv6m1hGYA2_hffL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-2" target="5rKq8sv6m1hGYA2_hffL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-2" value="Login" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-1" target="5rKq8sv6m1hGYA2_hffL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-4" target="5rKq8sv6m1hGYA2_hffL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-4" value="google/apple" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-5" value="主畫面" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-9" value="1. 儲存哪些東西?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-10" target="5rKq8sv6m1hGYA2_hffL-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-10" value="輸入帳號密碼" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="500" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-11" value="進入積分&lt;div&gt;查詢功能&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-12" target="5rKq8sv6m1hGYA2_hffL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-12" target="5rKq8sv6m1hGYA2_hffL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-12" value="TOKEN過期?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-5" target="5rKq8sv6m1hGYA2_hffL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-16" target="5rKq8sv6m1hGYA2_hffL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-16" target="5rKq8sv6m1hGYA2_hffL-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-16" value="歷史查詢資料" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-11" target="5rKq8sv6m1hGYA2_hffL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-19" target="5rKq8sv6m1hGYA2_hffL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-19" value="Get Captcha" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-24" target="5rKq8sv6m1hGYA2_hffL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-24" value="顯示資料" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-26" target="5rKq8sv6m1hGYA2_hffL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-26" value="重新查詢" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-38" target="5rKq8sv6m1hGYA2_hffL-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="725" />
+              <mxPoint x="260" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-29" value="執行查詢" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-33" value="Portal Login" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="580" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-34" value="Get SSO Link" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-36" value="SSO" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-37" value="Get License" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="810" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rKq8sv6m1hGYA2_hffL-29" target="5rKq8sv6m1hGYA2_hffL-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="860" as="sourcePoint" />
+            <mxPoint x="290" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="860" />
+              <mxPoint x="260" y="725" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rKq8sv6m1hGYA2_hffL-38" value="&amp;nbsp; 1. Get Summary&lt;div&gt;&amp;nbsp; 2. Detail by curriculum&lt;/div&gt;&lt;div&gt;&amp;nbsp; 3. Detail by path&lt;/div&gt;&lt;div&gt;&amp;nbsp; 4. Detail by&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;curriculum&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;path and category&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="100" y="670" width="140" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
